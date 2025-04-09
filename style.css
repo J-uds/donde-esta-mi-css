@@ -1,0 +1,48 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E2E4F3;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.card {
+
+
+}
+
+
+
+
+.google-btn{
+    flex-direction: row;
+    position: relative;
+   
+    
+}
+
+.google-image {
+    width: 5%;
+    float: inline-start;
+
+    
+}
