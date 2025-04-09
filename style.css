@@ -25,7 +25,8 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    box-sizing: content-box;
+
 }
 
 .title {
@@ -33,12 +34,34 @@ body {
  }
 
  .subtitle {
-    padding-bottom: 2%;
+    margin: 15px 0px;
  }
 
  a {
     text-decoration: none;
  }
+
+.google-btn{
+    flex-direction: row;
+    position: relative;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.google-image {
+    width: 5%;
+    float: inline-start;
+}
+
+.fb-btn {
+    height: 40px;
+    border-radius: 10px;
+}
+
+.facebook-image {
+    width: 5%;
+
+}
 
 .separator {
     display: flex;
@@ -54,35 +77,37 @@ body {
  }
 
 .email-login {
-    height: 100px;
     text-align: left;
     display: flex;
-    position: relative;
     flex-direction: column;
+    color: grey;
 }
 
-.cta-btn {
-    
-}
 
 label {
     margin-bottom: 10px;
  }
 
 input {
-    margin-bottom: 10px;
-}
-
-.google-btn{
-    flex-direction: row;
+    margin-bottom: 15px;
+    height: 40px;
     position: relative;
-   
-    
+    border-radius: 10px;
+    border-color: grey;
 }
 
-.google-image {
-    width: 5%;
-    float: inline-start;
+input::placeholder {
+    font-size: 10px;
+    text-indent: 15px;
 
-    
+}
+
+.cta-btn {
+    margin: 15px 0px ;
+    background-color:#4644B6;
+    color: white;
+    border-color: #4644B6;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 10px;
 }
