@@ -26,7 +26,6 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: content-box;
-
 }
 
 .title {
@@ -41,26 +40,39 @@ body {
     text-decoration: none;
  }
 
-.google-btn{
+.social-login{
+    display: flex;
     flex-direction: row;
-    position: relative;
+    justify-content: space-between;
+}
+
+.google-btn{
+    display: flex;
+    flex-direction: row;
     height: 40px;
+    width: 200px;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .google-image {
-    width: 5%;
-    float: inline-start;
+    width: 15%;
+    float: left;
+    margin-right: 5px;
 }
 
 .fb-btn {
-    height: 40px;
     border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .facebook-image {
-    width: 5%;
-
+    width: 70%;
 }
 
 .separator {
@@ -99,7 +111,6 @@ input {
 input::placeholder {
     font-size: 10px;
     text-indent: 15px;
-
 }
 
 .cta-btn {
